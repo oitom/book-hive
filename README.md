@@ -1,7 +1,7 @@
 # Book Hive
 Este projeto é uma aplicação web desenvolvida para facilitar o gerenciamento de livros. Ele permite que os usuários realizem operações completas de CRUD (Criar, Ler, Atualizar e Deletar) sobre um catálogo de livros de maneira simples e intuitiva.
 
-## Summary
+## Resumo
 
 - [Projeto](#projeto)
 - [Arquitetura](#arquitetura)
