@@ -13,7 +13,7 @@ Este projeto foi desenvolvido com uma arquitetura modular e está dividido em du
   
   - SPA utilizando Angular 18, Bootstrap e Angular Material.
 
-- [book-hive-api](https://github.com/oitom/book-hive-api) : API RESTFULL;
+- [book-hive-api](https://github.com/oitom/book-hive-api) : API RESTful;
 
   - API utilizando PHP 8, Mysql, Redis e Docker;
 
@@ -21,7 +21,7 @@ Essa divisão proporciona uma estrutura escalável e de fácil manutenção, al�
 
 
 ## Arquitetura
-API RESTFULL foi construída utilizando PHP e segue princípios sólidos de arquitetura e design, garantindo modularidade, manutenibilidade e escalabilidade.
+API RESTful foi construída utilizando PHP e segue princípios sólidos de arquitetura e design, garantindo modularidade, manutenibilidade e escalabilidade.
 
 ![Arquietetura Geral](./images/arquiterura-app-geral.png)
 
