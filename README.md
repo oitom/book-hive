@@ -54,19 +54,23 @@ A API adota a Arquitetura em Camadas (Layered Architecture), que organiza o cód
 
 ![Arquietetura Back-end](./images/arquiterura-back-end.png)
 
-### Padrões Implementados:
+### Padrões e Princípios Implementados:
 
-- Domain-Driven Design (DDD): 
+- **Domain-Driven Design (DDD)**: 
   A API segue os conceitos de DDD, separando o núcleo de regras de negócio (Domain) das camadas de aplicação e infraestrutura. Isso facilita a manutenção das regras de negócios e sua evolução.
 
-- Repository Pattern: 
+- **Separation of Concerns**: 
+  A aplicação segue o princípio de Separação de Preocupações, onde cada camada tem uma responsabilidade bem definida. Isso garante que mudanças em uma parte da aplicação não impactem outras partes, promovendo manutenibilidade e evolução contínua.
+
+- **Repository Pattern**: 
   O padrão Repository é utilizado para abstrair a lógica de persistência e acesso aos dados, desacoplando-a da lógica de negócios. Isso permite trocar a implementação de persistência sem alterar o comportamento da aplicação.
 
-- Controller-Service Pattern: 
+- **Controller-Service Pattern**: 
   Os Controllers recebem as requisições e delegam o processamento de negócios para os Services, garantindo uma separação clara entre a interface da API e a lógica de negócios.
 
-- Separation of Concerns: 
-  A aplicação segue o princípio de Separação de Preocupações, onde cada camada tem uma responsabilidade bem definida. Isso garante que mudanças em uma parte da aplicação não impactem outras partes, promovendo manutenibilidade e evolução contínua.
+- **Cache Aside Pattern**: 
+  O Cache Aside Pattern (Cache ao Lado) é uma estratégia de gerenciamento de cache amplamente utilizada em aplicações para otimizar o desempenho de consultas a dados.
+
 
 ![Estrutura Back-end](./images/estrutura-back-end.png)
 
