@@ -1,5 +1,6 @@
 # Book Hive
-Este projeto é uma aplicação web desenvolvida para facilitar o gerenciamento de livros. Ele permite que os usuários realizem operações completas de CRUD (Criar, Ler, Atualizar e Deletar) sobre um catálogo de livros de maneira simples e intuitiva.
+Este projeto é uma aplicação web de gerenciamento de livros. Com uma interface intuitiva que permite realizar todas as operações de CRUD (Criar, Ler, Atualizar, Excluir e Exportar Relatórios) em um catálogo de livros. 
+Além disso, a aplicação integra-se com a Google Books API, proporcionando uma experiência mais completa e rica em informações sobre os livros.
 
 ## Resumo
 
@@ -15,7 +16,7 @@ Este projeto foi desenvolvido com uma arquitetura modular e está dividido em du
 
 - [book-hive-api](https://github.com/oitom/book-hive-api) : API RESTful;
 
-  - API utilizando PHP 8, Mysql, Redis e Docker;
+  - API utilizando PHP 8, Mysql, Redis, Docker e integração com o Google Books API;
 
 Essa divisão proporciona uma estrutura escalável e de fácil manutenção, além de separar claramente as responsabilidades de cada camada.
 
@@ -50,7 +51,7 @@ A API adota a Arquitetura em Camadas (Layered Architecture), que organiza o cód
 - **Domain**: 
   Implementa o núcleo do sistema, focando nas regras de negócio. Aqui, estão definidas as Entities, Commands e os Repositories (interfaces).
 - **Infrastructure**: 
-  Contém a infraestrutura técnica necessária para rodar a aplicação, como persistência de dados através dos repositórios, definidos na camada de domínio, e implementados aqui.
+  Contém a infraestrutura técnica necessária para rodar a aplicação, como persistência de dados através dos repositórios, definidos na camada de domínio, e implementados aqui, tambem como, serviços externos e integrações, como é o caso do uso da Google Book API.
 
 ![Arquietetura Back-end](./images/arquiterura-back-end.png)
 
@@ -72,7 +73,7 @@ A API adota a Arquitetura em Camadas (Layered Architecture), que organiza o cód
   O Cache Aside Pattern (Cache ao Lado) é uma estratégia de gerenciamento de cache amplamente utilizada em aplicações para otimizar o desempenho de consultas a dados.
 
 
-![Estrutura Back-end](./images/estrutura-back-end.png)
+![Estrutura Back-end](./images/estrutura-divisao-back-end.png)
 
 ## Visão Geral
 
@@ -87,4 +88,3 @@ A API adota a Arquitetura em Camadas (Layered Architecture), que organiza o cód
 - Comprometa suas alterações (git commit -m 'Add new feature')
 - Envie para a ramificação (git push origin feature/new-feature)
 - Abra um Pull Request
-
