@@ -24,7 +24,7 @@ Essa divisão proporciona uma estrutura escalável e de fácil manutenção, al�
 ## Arquitetura
 API RESTful foi construída utilizando PHP e segue princípios sólidos de arquitetura e design, garantindo modularidade, manutenibilidade e escalabilidade.
 
-![Arquietetura Geral](./images/arquiterura-app-geral.png)
+![Arquietetura Geral](./images/arquiterura-geral.png)
 
 ## Arquitetura Front-end
 O SPA Angular utiliza a arquitetura modular e escalável de aplicações web. 
